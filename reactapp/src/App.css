@@ -12,9 +12,7 @@ form {
   margin-top: 20px;
 }
 
-label {
-  font-weight: bold;
-}
+
 
 input {
   padding: 5px;
@@ -27,8 +25,4 @@ button[type="submit"] {
   padding: 10px 20px;
   border: none;
   cursor: pointer;
-}
-
-button[type="submit"]:hover {
-  background-color: #45a049; /* Darker green color on hover */
 }
