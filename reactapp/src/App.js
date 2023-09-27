@@ -14,7 +14,7 @@ function App() {
     }
   };
 
-  return (
+  return (<>
     <div className="App">
       <h2>Hey!!! Greeting</h2>
       <form onSubmit={handleSubmit} data-testid='form'>
@@ -28,6 +28,7 @@ function App() {
       </form>
       {greeting && <h2>{greeting}</h2>}
     </div>
+    </>
   );
 }
 
